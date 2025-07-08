@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0eeced5f-c707-4cbe-8c42-0f14d57a2058" name="Changes" comment="uploading project" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NoamKahlon&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NoamKahlon/Travel-Insurance-QA-Mobile-Automation-Project",
+    "accountId": "275b3927-e06e-42d1-a6f3-c0e482f63c30"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2ySyYrKs7qIXOOvC5XSczoeRYRy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CheckingTheExistenceOfCarInsuranceTests.verifyInvalidCarInsurance.executor": "Debug",
+    "TestNG.SearchDocumentsAndFormsTests.test_TC058_FreeTextDocumentSearch.executor": "Debug",
+    "TestNG.T010_TravelInsuranceSpecialCoveragesTests.verifySpecialCoverages.executor": "Debug",
+    "TestNG.T011_TravelInsuranceHealthDeclarationTests.verifyOnlineHealthInsurance.executor": "Debug",
+    "TestNG.T01_TravelInsuranceIntroTests.executor": "Debug",
+    "TestNG.T01_TravelInsuranceIntroTests.introFlow.executor": "Run",
+    "TestNG.T02_TravelInsurancePurchasedBeforeQuestionTests.executor": "Run",
+    "TestNG.T02_TravelInsurancePurchasedBeforeQuestionTests.previousInsuranceQuestion.executor": "Debug",
+    "TestNG.T06_TravelInsuranceDestinationSelectionTests.verifyDestinationSelection.executor": "Debug",
+    "TestNG.T08_TravelInsurancePassengersDetailsTests.verifyPassengersDetails.executor": "Debug",
+    "TestNG.T09_TravelInsuranceCoveragesForYouTests.verifyCoverageCalculation.executor": "Debug",
+    "TestNG.T09_TravelInsuranceCoveragesForYouTests.verifyCoveragesForYou.executor": "Run",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.T01_TravelInsuranceIntroTests.introFlow">
+    <configuration name="T010_TravelInsuranceSpecialCoveragesTests.verifySpecialCoverages" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Travel-Insurance-QA-Automation-AppiumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.T010_TravelInsuranceSpecialCoveragesTests" />
+      <option name="METHOD_NAME" value="verifySpecialCoverages" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T011_TravelInsuranceHealthDeclarationTests.verifyOnlineHealthInsurance" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Travel-Insurance-QA-Automation-AppiumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.T011_TravelInsuranceHealthDeclarationTests" />
+      <option name="METHOD_NAME" value="verifyOnlineHealthInsurance" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T01_TravelInsuranceIntroTests.introFlow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Travel-Insurance-QA-Automation-AppiumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.T01_TravelInsuranceIntroTests" />
+      <option name="METHOD_NAME" value="introFlow" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T09_TravelInsuranceCoveragesForYouTests.verifyCoverageCalculation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Travel-Insurance-QA-Automation-AppiumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.T09_TravelInsuranceCoveragesForYouTests" />
+      <option name="METHOD_NAME" value="verifyCoverageCalculation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T09_TravelInsuranceCoveragesForYouTests.verifyCoveragesForYou" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Travel-Insurance-QA-Automation-AppiumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.T09_TravelInsuranceCoveragesForYouTests" />
+      <option name="METHOD_NAME" value="verifyCoveragesForYou" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.T01_TravelInsuranceIntroTests.introFlow" />
+        <item itemvalue="TestNG.T09_TravelInsuranceCoveragesForYouTests.verifyCoveragesForYou" />
+        <item itemvalue="TestNG.T09_TravelInsuranceCoveragesForYouTests.verifyCoverageCalculation" />
+        <item itemvalue="TestNG.T010_TravelInsuranceSpecialCoveragesTests.verifySpecialCoverages" />
+        <item itemvalue="TestNG.T011_TravelInsuranceHealthDeclarationTests.verifyOnlineHealthInsurance" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0eeced5f-c707-4cbe-8c42-0f14d57a2058" name="Changes" comment="" />
+      <created>1749842322253</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749842322253</updated>
+    </task>
+    <task id="LOCAL-00001" summary="uploading project">
+      <option name="closed" value="true" />
+      <created>1751999839210</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751999839210</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="uploading project" />
+    <option name="LAST_COMMIT_MESSAGE" value="uploading project" />
+  </component>
+</project>
