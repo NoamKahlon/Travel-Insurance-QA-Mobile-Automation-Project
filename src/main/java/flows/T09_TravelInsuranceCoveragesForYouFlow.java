@@ -98,7 +98,7 @@ public class T09_TravelInsuranceCoveragesForYouFlow {
             double priceBefore = coveragesForYouPage.getFinalPriceValue();
             Allure.step("💰 Price before: " + priceBefore);
 
-            coveragesForYouPage.addBaggageCoverage();
+            coveragesForYouPage.addMedicalCoverage();
             Thread.sleep(1000);
 
             double priceAfter = coveragesForYouPage.getFinalPriceValue();

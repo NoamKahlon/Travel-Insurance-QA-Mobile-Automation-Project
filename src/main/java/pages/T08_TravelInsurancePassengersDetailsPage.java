@@ -1,9 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 
 public class T08_TravelInsurancePassengersDetailsPage {
 
@@ -22,9 +20,7 @@ public class T08_TravelInsurancePassengersDetailsPage {
     private final By genderField = By.cssSelector("div.sc-bjUoiL");
     private final By continueButton = By.cssSelector("button.sc-papXJ.jyxUhb.procceed");
     private final By backButton = By.cssSelector("button.sc-papXJ.iGkwwW.goback");
-    //private final By maleGenderButton = By.id("זכר_gender_0");
     private final By maleGenderButton = By.cssSelector("label[for='זכר_gender_0']");
-    private final By insuranceFinalPrice = By.cssSelector(".finalPriceValue");
 
     // === Constructor ===
     public T08_TravelInsurancePassengersDetailsPage(BasePage basePage) {
@@ -121,7 +117,4 @@ public class T08_TravelInsurancePassengersDetailsPage {
         return basePage.isDisplayed(backButton);
     }
 
-    public boolean isInsuranceFinalPriceVisible() {
-        return basePage.isDisplayed(insuranceFinalPrice);
-    }
 }

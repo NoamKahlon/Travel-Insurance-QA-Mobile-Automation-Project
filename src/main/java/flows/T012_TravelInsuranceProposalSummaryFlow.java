@@ -49,19 +49,14 @@ public class T012_TravelInsuranceProposalSummaryFlow {
      */
     public void verifySummaryDetails() {
         String passengersNumber = proposalSummaryPage.getPassengersNumber();
-        System.out.println("👥 Number of passengers: " + passengersNumber);
 
         String destination = proposalSummaryPage.getDestination();
-        System.out.println("🌍 Destination: " + destination);
 
         String dates = proposalSummaryPage.getDates();
-        System.out.println("📅 Travel dates: " + dates);
 
         List<String> allCoverages = proposalSummaryPage.getAllPassengerCoverages();
-        System.out.println("📋 Coverages: " + String.join(", ", allCoverages));
 
         String allParagraphsText = proposalSummaryPage.getSpecificPassengerCoveragesTexts();
-        System.out.println("📄 Accordion Content:\n" + allParagraphsText);
     }
 
     /**

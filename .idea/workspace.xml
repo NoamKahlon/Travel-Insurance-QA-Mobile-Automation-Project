@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0eeced5f-c707-4cbe-8c42-0f14d57a2058" name="Changes" comment="uploading project" />
+    <list default="true" id="0eeced5f-c707-4cbe-8c42-0f14d57a2058" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flows/CheckingTheExistenceOfCarInsuranceFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flows/CheckingTheExistenceOfCarInsuranceFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flows/T012_TravelInsuranceProposalSummaryFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flows/T012_TravelInsuranceProposalSummaryFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flows/T09_TravelInsuranceCoveragesForYouFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flows/T09_TravelInsuranceCoveragesForYouFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchDocumentsAndFormsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchDocumentsAndFormsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/T012_TravelInsuranceProposalSummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/T012_TravelInsuranceProposalSummaryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/T01_TravelInsuranceIntroPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/T01_TravelInsuranceIntroPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/T02_TravelInsurancePurchasedBeforeQuestionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/T02_TravelInsurancePurchasedBeforeQuestionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/T03_TravelInsurancePassengersFromIsraelQuestionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/T03_TravelInsurancePassengersFromIsraelQuestionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/T04_TravelInsuranceAlreadyPurchasedBeforePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/T04_TravelInsuranceAlreadyPurchasedBeforePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/T06_TravelInsuranceDestinationSelectionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/T06_TravelInsuranceDestinationSelectionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/T07_TravelInsuranceDateSelectionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/T07_TravelInsuranceDateSelectionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/T08_TravelInsurancePassengersDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/T08_TravelInsurancePassengersDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/T09_TravelInsuranceCoveragesForYouPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/T09_TravelInsuranceCoveragesForYouPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/SearchDocumentsAndFormsData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/SearchDocumentsAndFormsData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CheckingTheExistenceOfCarInsuranceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CheckingTheExistenceOfCarInsuranceTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +37,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -48,22 +67,24 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.CheckingTheExistenceOfCarInsuranceTests.verifyInvalidCarInsurance.executor": "Debug",
+    "TestNG.CheckingTheExistenceOfCarInsuranceTests.verifyValidCarInsurance.executor": "Run",
     "TestNG.SearchDocumentsAndFormsTests.test_TC058_FreeTextDocumentSearch.executor": "Debug",
     "TestNG.T010_TravelInsuranceSpecialCoveragesTests.verifySpecialCoverages.executor": "Debug",
     "TestNG.T011_TravelInsuranceHealthDeclarationTests.verifyOnlineHealthInsurance.executor": "Debug",
     "TestNG.T01_TravelInsuranceIntroTests.executor": "Debug",
-    "TestNG.T01_TravelInsuranceIntroTests.introFlow.executor": "Run",
+    "TestNG.T01_TravelInsuranceIntroTests.introFlow.executor": "Debug",
     "TestNG.T02_TravelInsurancePurchasedBeforeQuestionTests.executor": "Run",
     "TestNG.T02_TravelInsurancePurchasedBeforeQuestionTests.previousInsuranceQuestion.executor": "Debug",
     "TestNG.T06_TravelInsuranceDestinationSelectionTests.verifyDestinationSelection.executor": "Debug",
     "TestNG.T08_TravelInsurancePassengersDetailsTests.verifyPassengersDetails.executor": "Debug",
     "TestNG.T09_TravelInsuranceCoveragesForYouTests.verifyCoverageCalculation.executor": "Debug",
     "TestNG.T09_TravelInsuranceCoveragesForYouTests.verifyCoveragesForYou.executor": "Run",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.T01_TravelInsuranceIntroTests.introFlow">
-    <configuration name="T010_TravelInsuranceSpecialCoveragesTests.verifySpecialCoverages" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CheckingTheExistenceOfCarInsuranceTests.verifyValidCarInsurance">
+    <configuration name="CheckingTheExistenceOfCarInsuranceTests.verifyInvalidCarInsurance" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Travel-Insurance-QA-Automation-AppiumProject" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +93,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.T010_TravelInsuranceSpecialCoveragesTests" />
-      <option name="METHOD_NAME" value="verifySpecialCoverages" />
+      <option name="MAIN_CLASS_NAME" value="tests.CheckingTheExistenceOfCarInsuranceTests" />
+      <option name="METHOD_NAME" value="verifyInvalidCarInsurance" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T011_TravelInsuranceHealthDeclarationTests.verifyOnlineHealthInsurance" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckingTheExistenceOfCarInsuranceTests.verifyValidCarInsurance" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Travel-Insurance-QA-Automation-AppiumProject" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +111,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.T011_TravelInsuranceHealthDeclarationTests" />
-      <option name="METHOD_NAME" value="verifyOnlineHealthInsurance" />
+      <option name="MAIN_CLASS_NAME" value="tests.CheckingTheExistenceOfCarInsuranceTests" />
+      <option name="METHOD_NAME" value="verifyValidCarInsurance" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckingTheExistenceOfCarInsuranceTests.verifyValidCarInsurance" />
+        <item itemvalue="TestNG.CheckingTheExistenceOfCarInsuranceTests.verifyInvalidCarInsurance" />
+        <item itemvalue="TestNG.T09_TravelInsuranceCoveragesForYouTests.verifyCoverageCalculation" />
         <item itemvalue="TestNG.T01_TravelInsuranceIntroTests.introFlow" />
         <item itemvalue="TestNG.T09_TravelInsuranceCoveragesForYouTests.verifyCoveragesForYou" />
-        <item itemvalue="TestNG.T09_TravelInsuranceCoveragesForYouTests.verifyCoverageCalculation" />
-        <item itemvalue="TestNG.T010_TravelInsuranceSpecialCoveragesTests.verifySpecialCoverages" />
-        <item itemvalue="TestNG.T011_TravelInsuranceHealthDeclarationTests.verifyOnlineHealthInsurance" />
       </list>
     </recent_temporary>
   </component>
@@ -179,11 +200,20 @@
       <option name="project" value="LOCAL" />
       <updated>1751999839210</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1752000338206</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752000338206</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="uploading project" />
-    <option name="LAST_COMMIT_MESSAGE" value="uploading project" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

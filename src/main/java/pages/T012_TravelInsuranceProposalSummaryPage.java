@@ -11,9 +11,6 @@ public class T012_TravelInsuranceProposalSummaryPage {
     private final BasePage basePage;
 
     //////////// LOCATORS ////////////
-    private final By passengersNumber = By.xpath("//div[@class='orderInfoBox'][.//span[contains(text(),'כמות נוסעים')]]/h4");
-    private final By specificPassengerCoverage = By.xpath("//div[contains(text(),'כיסויים נוספים עבור נוסע.ת') or contains(text(),'נוסעים ספציפיים')]");
-    private final By additionalCoversPassengers = By.xpath("//div[contains(@class,'additionalCoversPassengers')]//div[contains(@class,'accordion-content')]");
     private final By allPassengerCoverage = By.cssSelector("div.sc-breuTD.eyjbsn div div.sc-hAZoDl.fJryBF.col-md-6.col-lg-6");
     private final By accordionParagraphs = By.cssSelector(".accordion-content .accordion-section p");
 

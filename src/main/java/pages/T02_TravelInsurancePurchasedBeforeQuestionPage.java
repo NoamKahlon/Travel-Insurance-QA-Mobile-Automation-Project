@@ -10,8 +10,6 @@ public class T02_TravelInsurancePurchasedBeforeQuestionPage {
     private final By questionHeader = By.xpath("//h1[contains(text(),'רכשת ביטוח')]");
     private final By firstTimeOption = By.cssSelector("div[data-f='first-time-no']");
     private final By alreadyPurchasedOption = By.cssSelector("div[data-f='already-purchased']");
-    private final By continueButton = By.cssSelector("button.procceed");
-    private final By backToQuestion = By.xpath("//h1[contains(text(),'רכשת ביטוח')]");
 
     //////////// CONSTRUCTOR ////////////
     public T02_TravelInsurancePurchasedBeforeQuestionPage(BasePage basePage) {
@@ -27,21 +25,9 @@ public class T02_TravelInsurancePurchasedBeforeQuestionPage {
         basePage.click(alreadyPurchasedOption);
     }
 
-    public void clickOnContinueButton() {
-        basePage.forceClick(continueButton);
-    }
-
-    public void scrollToContinueButton() {
-        basePage.scrollToElement(continueButton);
-    }
-
     //////////// GETTERS ////////////
     public String getQuestionText() {
         return basePage.getText(questionHeader);
-    }
-
-    public String getBackToQuestionText() {
-        return basePage.getText(backToQuestion);
     }
 
     //////////// VALIDATIONS ////////////

@@ -26,6 +26,5 @@ public class CheckingTheExistenceOfCarInsuranceTests extends BaseTest {
     public void verifyValidCarInsurance() throws InterruptedException {
             flow.searchInsurance(true);
             flow.verifyInsuranceFoundSuccess();
-
     }
 }

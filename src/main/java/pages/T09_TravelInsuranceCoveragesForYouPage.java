@@ -15,11 +15,9 @@ public class T09_TravelInsuranceCoveragesForYouPage {
     private final BasePage basePage;
 
     //////////// Locators ////////////
-    ///
+
     private final By coverageTitles = By.cssSelector("div.title");
-   // private final By finalPriceField = By.className("finalPriceValue");
     private final By finalPriceField = By.cssSelector(".finalPriceValue");
-    //private final By finalPriceField = By.cssSelector("span.finalPriceValue");
     private final By backButton = By.cssSelector("div[data-f='back']");
     private final By continueButton = By.cssSelector("div[data-f='continue']");
     private final By noThanksButton = By.cssSelector("div[data-f='no-thanks']");
@@ -73,10 +71,6 @@ public class T09_TravelInsuranceCoveragesForYouPage {
      public String getFinalPriceText() throws InterruptedException {
             return basePage.getFinalPriceText();
      }
-//    public String getFinalPriceText() {
-//
-//        return isFinalPriceVisible() ? basePage.getText(finalPriceField).trim() : "";
-//    }
 
     public double getFinalPriceValue() throws InterruptedException {
         String text = getFinalPriceText();

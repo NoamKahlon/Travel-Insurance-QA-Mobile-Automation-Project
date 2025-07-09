@@ -14,6 +14,7 @@ public class T04_TravelInsuranceAlreadyPurchasedBeforePage {
     private final By idField = By.id("id");
 
     //////////// CONSTRUCTOR ////////////
+
     public T04_TravelInsuranceAlreadyPurchasedBeforePage(BasePage basePage) {
         this.basePage = basePage;
     }

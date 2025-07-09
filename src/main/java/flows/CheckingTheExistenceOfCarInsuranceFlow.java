@@ -28,8 +28,7 @@ public class CheckingTheExistenceOfCarInsuranceFlow {
      * Navigates to the insurance check section and clicks the entry point.
      */
     public void navigateToInsuranceCheckSection() throws Exception {
-
-       Thread.sleep(5000);
+       Thread.sleep(7500);
         insurancePage.scrollToCheckingTheExistenceOfCarInsurance();
         Allure.step("✅ Scrolled to insurance check section");
 

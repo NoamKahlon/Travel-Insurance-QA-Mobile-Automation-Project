@@ -13,20 +13,12 @@ public class T07_TravelInsuranceDateSelectionPage {
     //////////// LOCATORS ////////////
 
     private final By continueButton = By.cssSelector(".sc-papXJ.jyxUhb.procceed");
-    private final By phoneField = By.id("phone");
-    private final By idField = By.id("id");
     private final By startDateField = By.id("startDate");
     private final By endDateField = By.id("endDate");
     private final By nextStepButton = By.cssSelector(".sc-papXJ.jyxUhb.procceed");
-    private final By travelInsuranceButton = By.id("abroadplus");
-    private final By letsContinueButton = By.cssSelector("button.procceed");
     private final By previousStepButton = By.cssSelector(".sc-papXJ.iGkwwW.goback");
 
     //////////// ACTIONS ////////////
-
-    public void clickContinue() {
-        basePage.forceClick(continueButton);
-    }
 
     public void clickContinueButton() {
         basePage.forceClick(nextStepButton);
@@ -38,15 +30,7 @@ public class T07_TravelInsuranceDateSelectionPage {
     }
 
     //////////// VALIDATIONS ////////////
-
-    public boolean isStartDateFieldVisible() {
-        return basePage.isDisplayed(startDateField);
-    }
-
-    public boolean isEndDateFieldVisible() {
-        return basePage.isDisplayed(endDateField);
-    }
-
+    ///
     public boolean isContinueButtonVisible() {
         return basePage.isDisplayed(continueButton);
     }
